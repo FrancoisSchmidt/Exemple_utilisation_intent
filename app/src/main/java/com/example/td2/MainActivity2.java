@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         Intent deuxVersTrois = new Intent(this, MainActivity3.class);
         startActivityForResult(deuxVersTrois,4);
     }
-    
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
